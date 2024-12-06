@@ -1,0 +1,1 @@
+window.globalProvideData('caption', '{"data":"WEBVTT%0D%0AKind:%20captions%0D%0ASource:%20Articulate%20Closed%20Captions%20Editor%0D%0ASource%20Version:%206.25.18088.0%0D%0A%0D%0A00:00:00.096%20--%3E%2000:00:05.196%0D%0AHelp%20us%20to%20create%20a%20better%20working%20culture%20for%20all%20by%20doing%20these%20four%20simple%20things.%0D%0A%0D%0A"}')
