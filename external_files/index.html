@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <style>
+        #rcorners2 {
+        border-radius: 25px;
+        border: 2px solid #e7e7e7;
+        padding: 20px;
+        height: 150px;
+        font-family: sans-serif;
+        align-content: center;
+        text-align: center;
+        vertical-align:center;
+    }
+
+</style>
+
+</head>
+
+<body>
+    <script src="Blob.js"></script>
+    <script src="FileSaver.min.js"></script>
+    <script type="text/javascript">
+        window.onload = function() {
+//            var blob = new Blob(["Hello, world!"], {
+//                type: "text/plain;charset=utf-8"
+//            });
+//            var a = saveAs(blob, "4_Simple_Things_To_Do.pdf");
+            saveAs("4_Simple_Things_To_Do.pdf", "4_Simple_Things_To_Do.pdf");
+        }
+    </script>
+<br/><br/><br/>
+    <table align="center" id="rcorners2" style="width:60%">
+        <tr>
+            <td><img src="downloadIcon.png" alt="Download Icon"> </td>
+
+        </tr>
+        <tr height="50px">
+            <td>4_Simple_Things_To_Do.pdf finished downloading.</td>
+        </tr>
+    </table>
+
+
+</body>
+
+</html>
